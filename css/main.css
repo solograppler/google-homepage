@@ -1,14 +1,59 @@
+html {
+  background: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-right {
+  flex: 1;
+}
+
+.nav-right ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-left {
+  flex: 1;
+}
+
+.nav-left ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-image {
+  border-radius: 50%;
+  width: 32px;
+}
+
 .search-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+li {
+  padding: 10px;
+}
+
 .google-img {
   height: 92px;
   aspect-ratio: auto 272 / 92;
   width: 272px;
+  margin-bottom: 30px;
 }
+
 .search-bar {
   background: #fff;
   display: flex;
@@ -24,6 +69,7 @@
 .btns {
   display: flex;
   justify-content: center;
+  margin: 18px;
 }
 
 .btn {
